@@ -1,0 +1,4 @@
+GreeterIntent hello
+GreeterIntent say hello
+GreeterIntent to say hello to {personName}
+GreeterIntent say hello to {personName}

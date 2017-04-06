@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "intent": "GreeterIntent",
+      "slots": [
+        {
+        	"name": "personName",
+        	"type": "AMAZON.Person"
+        }
+      ]
+    }
+  ]
+}
