@@ -11,8 +11,11 @@ const handlers = {
   },
   'SayHello': function () {
       const name = this.event.request.intent.slots.personName.value || 'you';
-      this.emit(':tell', `Hello ${name}`);
-  }
+      this.emit(':ask', `Hello ${name}. How are you doing today?`);
+  },
+  'GreeterGoodbyeIntent': function () {
+      this.emit(':tell', 'Well, good to hear that. Talk to you later bye!')
+  },
 };
 
 exports.handler = function(event, context, callback) {

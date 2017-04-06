@@ -8,6 +8,9 @@
         	"type": "AMAZON.Person"
         }
       ]
+    },
+    {
+      "intent": "GreeterGoodbyeIntent"
     }
   ]
 }

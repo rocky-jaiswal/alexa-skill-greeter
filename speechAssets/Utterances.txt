@@ -2,3 +2,6 @@ GreeterIntent hello
 GreeterIntent say hello
 GreeterIntent to say hello to {personName}
 GreeterIntent say hello to {personName}
+GreeterGoodbyeIntent I am doing well thank you
+GreeterGoodbyeIntent I am doing fine
+GreeterGoodbyeIntent I am fine
